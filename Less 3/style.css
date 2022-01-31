@@ -1,0 +1,27 @@
+.counter-plus {
+    transform: translate(300px, 100px);
+    width: 100px;
+    height: 50px;
+    border: none;
+    transition: 1s all ;
+}
+.counter-minus {
+    transform: translate(300px, 100px);
+    width: 100px;
+    height: 50px;
+    border: none;
+    transition: 1s all ;
+}
+
+.counter-plus:hover {
+    color: #000;
+    background-color: green;
+}
+.counter-minus:hover {
+    color: #000;
+    background-color: red;
+}
+.counter-display {
+    font-size: 100px;
+    transform: translate(370px, 100px);
+}
